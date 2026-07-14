@@ -4,7 +4,7 @@ import type { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import { userStore } from '../store/userStore';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://school-management-system-5yv1.onrender.com',
   withCredentials: true,
   timeout: 10000,
   headers: {
